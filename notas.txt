@@ -1,0 +1,30 @@
+Annual Income --> Estudiarlo con y sin logaritmo
+Monthly Debt --> sqrt
+Years of Credit History --> sqrt 
+Current Credit Balance" --> sqrt
+
+
+num_cols1:
+- valores atipicos,
+- SimpleImputer
+- StandardScaler
+
+num_cols2: Annual Income
+- valores atipicos
+- SimpleImputer
+- log 
+- StandardScaler
+
+num_cols3: Monthly Debt - Years of Credit History - Current Credit Balance
+- valores atipicos
+- SimpleImputer
+- sqrt 
+- StandardScaler
+
+cat_cols1:
+- SimpleImputer
+- OneHotEncoder
+
+cat_cols2:
+- SimpleImputer
+- categ_transformer
